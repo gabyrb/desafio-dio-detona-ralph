@@ -1,0 +1,16 @@
+/*essa parte foi usada para que o site abrisse igual em todos os navegadores */
+/* o simbolo do asterisco é usado para especificar que voce quer usar todo o conteudo do site */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+    /* fonte usada abaixo */
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    
+      
+        
+      
+}

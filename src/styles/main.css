@@ -1,0 +1,53 @@
+.container{
+    /* o display flex é usado para deixar as coisas uma ao lado da outra  */
+    display: flex ;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("../images/wall.png");
+
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-bottom: 5px solid gold;
+}
+.painel{
+    margin-top: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* essa parte é a dos quadrados usados */
+.square{
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    background-color: rgb(96, 223, 180);
+}
+.inimigo{
+   
+    background-image: url("../images/ralph.png");
+    background-size: cover;
+    
+}
+.menu-lives{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* aqui foram inseridos os nomes das classes do menu e logo em seguida o que queriamos editar. o nthchild faz referencia
+ao segundo filho da tag h2, que nesse caso seria o numero 2 representando o score e o time, que é 0 */
+.menu-time h2:nth-child(2),
+.menu-score h2:nth-child(2){
+    margin-top: 1rem;
+}
